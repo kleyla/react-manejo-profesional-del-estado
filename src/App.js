@@ -1,4 +1,5 @@
 import { ClassState } from "./pages/ClassState";
+import { UseReducerExample } from "./pages/UseReducerExample";
 import { UseStateExample } from "./pages/UseStateExample";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <div className="App">
       <UseStateExample name="UseState" />
       <ClassState name="ClassState" />
+      <UseReducerExample name="UseReducer" />
     </div>
   );
 }
